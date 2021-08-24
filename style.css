@@ -58,20 +58,26 @@ body {
   width: 500px;
   height: 360px;
   position: absolute;
-  margin: auto;
-  margin-top: 100px;
-  left: 24.5%;
+  margin-left:  50px;
+  margin-top: 115px;
+  /* left: 24.5%; */
   border: 2px solid #00cc0a;
-  align-items: flex-start;
-  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
   flex-wrap: wrap;
+  background-color: aqua;
+   justify-content: flex-start; 
+  
 }
-.genre {
-  text-align: center;
-  background-color: #159daf83;
-  border-radius: 20px;
-  border: 2px solid #00b4cc;
-  font-size: 16px;
-  padding: 4px;
-  color: white;
+p{
+  word-break: break-all;
+}
+
+.information{
+  display: flex;
+   align-self: flex-end;
+   margin-left:  -151px;; 
+   
+  
+  background-color: #00cc0a;
 }
