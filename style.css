@@ -39,10 +39,10 @@ body {
 .wrap {
   width: 200px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 .DataDiv {
   width: 600px;
-  height: 100vh;
   margin: auto;
   margin-top: 30px;
   border: 2px solid #00b4cc;
@@ -77,10 +77,4 @@ p {
   justify-content: flex-end;
   background-color: #00cc0a;
   margin-top: auto;
-}
-.imgs {
-  max-width: 365px;
-  max-height: 200px;
-  margin: 77px 0px 0px 0px;
-  align-content: center;
 }
