@@ -44,10 +44,10 @@ div.addEventListener("click", (event) => {
         )
           .then((res) => res.json())
           .then((content) => {
-            img.src = content.data[0].images.downsized.url;
+            img.src = content.data[0].images.fixed_height_downsampled.url;
           });
       } else {
-        img.src = info.data[0].images.downsized.url;
+        img.src = info.data[0].images.fixed_height_downsampled.url;
       }
       document.getElementById("imgs").appendChild(img);
     });
